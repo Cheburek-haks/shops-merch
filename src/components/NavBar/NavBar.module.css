@@ -1,0 +1,30 @@
+.nav_bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_bar_button {
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font20px);
+  color: var(--white);
+  background-color: transparent;
+  border: none;
+  transition: var(--trans01s);
+}
+.nav_bar_button:hover {
+  color: var(--formBackColorHover);
+  text-decoration-line: underline;
+}
+
+.side_bar {
+  position: fixed;
+  width: calc(var(--index) * 8);
+  height: calc(var(--index) * 12);
+  background-color: black;
+  z-index: 100;
+  top: calc(var(--index) * 2);
+  left: calc(var(--index) * 1);
+}

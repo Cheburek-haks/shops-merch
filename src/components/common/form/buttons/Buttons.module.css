@@ -1,0 +1,23 @@
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font20px);
+  color: var(--white);
+  background-color: transparent;
+  border: none;
+  transition: var(--trans01s);
+}
+.button_active {
+  color: var(--formBackColorHover);
+}
+.button:hover {
+  color: var(--formBackColorHover);
+  text-decoration-line: underline;
+}

@@ -1,0 +1,31 @@
+.main_image_div {
+  width: 100%;
+  height: calc(var(--index) * 19.91);
+  margin-top: calc(var(--index) * 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.main_image_text {
+  position: absolute;
+  width: 60%;
+  height: calc(var(--index) * 10.91);
+  pointer-events: none;
+  transform: translate3d(0, calc(var(--scrollTop) / 17), 0);
+  z-index: 10;
+}
+.main_image {
+  pointer-events: none;
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+}
+.head {
+  opacity: 0.2;
+  transform: rotate((calc(var(--scrollTop) * 21)) deg);
+}
+.hands {
+  opacity: 0.2;
+  transform: translate3d(0, calc(var(--scrollTop) / 21), 0);
+}
