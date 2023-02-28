@@ -1,3 +1,32 @@
+.shop_content {
+  width: 100%;
+  margin: 0 auto;
+}
+.shop_content_title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--font32px);
+  line-height: 138.86%;
+  color: var(--white);
+}
+.shop_content_filters {
+  margin-top: calc(var(--index) * 5);
+}
+
+/* content */
+
+.content {
+  margin-top: calc(var(--index) * 2);
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* shop-card */
+
 .card {
   cursor: pointer;
   width: 27%;
@@ -35,7 +64,7 @@
   font-weight: 600;
   font-size: var(--font15px);
   line-height: 138.86%;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .card_subtitle {

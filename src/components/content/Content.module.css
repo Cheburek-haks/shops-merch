@@ -1,47 +1,4 @@
-.shop_content {
-  width: var(--contentWidth);
-  margin: 0 auto;
-  margin-top: calc(var(--index) * 6);
-}
 .content_filters {
   display: flex;
   justify-content: end;
-  margin-top: calc(var(--index) * 3);
-}
-.button_icon {
-  width: calc(var(--index) * 0.8);
-}
-
-/* content */
-
-.content {
-  margin-top: calc(var(--index) * 2);
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-between;
-}
-
-/* basket */
-
-.basket_suptitle {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.basket_title {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: var(--font32px);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--white);
-  margin: 0;
-}
-.basket_icon {
-  cursor: pointer;
-  width: calc(var(--index) * 1.4);
-  height: calc(var(--index) * 1.4);
 }

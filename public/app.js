@@ -4,4 +4,4 @@ setTimeout(() => {
     wrapper: ".wrapper",
     content: ".content",
   });
-}, 1);
+}, 200);

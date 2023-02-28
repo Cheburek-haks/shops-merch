@@ -1,0 +1,189 @@
+/* basket */
+.basket_shop_content {
+  width: var(--contentWidth);
+  margin: 0 auto;
+}
+.basket_suptitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basket_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--font32px);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--white);
+  margin: 0;
+}
+.basket_icon {
+  cursor: pointer;
+  width: calc(var(--index) * 1.4);
+  height: calc(var(--index) * 1.4);
+}
+
+/* basket-card */
+
+.basket_card {
+  width: 96.4%;
+  height: calc(var(--index) * 4.23);
+  padding: calc(var(--index) * 0.77);
+  margin-top: calc(var(--index) * 0.6);
+  background-color: var(--formBackColor);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--trans01s);
+}
+.basket_card:hover {
+  box-shadow: 0px 0px 35px rgba(104, 146, 226, 0.85);
+}
+.basket_card_left {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.basket_card_right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basket_card_image {
+  width: 27%;
+  height: calc(var(--index) * 4.24);
+}
+.basket_card_title {
+  margin-left: calc(var(--index) * 0.97);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--font15px);
+  color: var(--white);
+}
+
+.basket_buttons {
+  display: flex;
+  align-items: center;
+}
+.basket_button {
+  cursor: pointer;
+  width: calc(var(--index) * 1.09);
+  height: calc(var(--index) * 1.35);
+  background: var(--formBackColor);
+  box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.06),
+    -1px -3px 3px rgba(255, 255, 255, 0.21);
+  border-radius: 5px;
+  border: none;
+  color: var(--white);
+  transition: var(--trans01s);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font20px);
+}
+.basket_button:hover {
+  background-color: var(--formBackColorHover);
+}
+
+.basket_button_main {
+  width: calc(var(--index) * 1.8);
+  height: calc(var(--index) * 1.8);
+  font-size: var(--font15px);
+}
+
+.basket_prices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.basket_prices_title {
+  color: var(--white);
+  transition: var(--trans01s);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font20px);
+  margin-right: calc(var(--index) * 1.56);
+}
+.basket_prices_image {
+  width: calc(var(--index) * 0.78);
+  height: calc(var(--index) * 0.78);
+}
+/* basket-button */
+.basket_button_div {
+  width: 70.1%;
+  height: calc(var(--index) * 4);
+  z-index: 10;
+  background-color: var(--formBackColor);
+  align-items: flex-start;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  border-radius: 20px;
+  display: flex;
+}
+.basket_count_butt {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.basket_count_button {
+  cursor: pointer;
+  width: calc(var(--index) * 10);
+  height: calc(var(--index) * 2);
+  background: var(--white);
+  box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.12),
+    -2px -4px 1px rgba(255, 255, 255, 0.21);
+  border-radius: 38px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--font15px);
+  border: none;
+  text-transform: uppercase;
+  color: #28303f;
+}
+.basket_count_button:active {
+  background-color: var(--formBackColorHover);
+  color: var(--white);
+}
+.basket_count {
+  color: var(--white);
+}
+.basket_count_text1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--font18px);
+  color: var(--index);
+}
+.basket_count_text2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--font30px);
+  margin-left: calc(var(--index) * 1.56);
+}
+
+/* content-filters */
+
+.content_filters {
+  margin: calc(var(--index) * 2) 0;
+}
+
+.plug {
+  height: calc(var(--index) * 6);
+}

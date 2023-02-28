@@ -1,13 +1,13 @@
 import * as React from "react";
 import { ICard } from "../../../types/Types";
-import style from "./Card.module.css";
+import style from "./ShopContent.module.css";
 import basketImage from "../../../img/Basket.svg";
-interface CardItemProps {
+interface ShopCardProps {
   item: ICard;
   onClick: (card: ICard) => void;
 }
 
-const CardItem: React.FC<CardItemProps> = ({ item, onClick }) => {
+const ShopCard: React.FC<ShopCardProps> = ({ item, onClick }) => {
   const handleChooseClassesIcon = () => {
     return style.card_icon + " " + (item.favourites && style.card_icon_active);
   };
@@ -33,4 +33,4 @@ const CardItem: React.FC<CardItemProps> = ({ item, onClick }) => {
   );
 };
 
-export default CardItem;
+export default ShopCard;

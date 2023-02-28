@@ -13,6 +13,9 @@ const Header = () => {
   const navigate = useNavigate();
   const [title, setTitle] = React.useState<string>("");
   const [count, setCount] = React.useState<number>(1231230);
+  React.useEffect(() => {
+    navigate(`/`);
+  }, []);
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setTitle(event.target.value);
   };

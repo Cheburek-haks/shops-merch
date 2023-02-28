@@ -1,0 +1,8 @@
+.container {
+  width: var(--contentWidth);
+  margin: 0 auto;
+  margin-top: calc(var(--index) * 5);
+}
+.nav_var {
+  margin-top: calc(var(--index) * 3);
+}
