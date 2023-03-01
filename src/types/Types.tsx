@@ -12,3 +12,6 @@ export interface IBasket {
   price: number;
   favourites: boolean;
 }
+export interface IProfessions {
+  name: string;
+}

@@ -1,7 +1,7 @@
-setTimeout(() => {
-  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-  ScrollSmoother.create({
-    wrapper: ".wrapper",
-    content: ".content",
-  });
-}, 200);
+// setTimeout(() => {
+//   gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+//   ScrollSmoother.create({
+//     wrapper: ".wrapper",
+//     content: ".content",
+//   });
+// }, 500);
