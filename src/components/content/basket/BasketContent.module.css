@@ -16,7 +16,7 @@
   font-size: var(--font32px);
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: var(--white);
+  color: var(--color-white);
   margin: 0;
 }
 .basket_icon {
@@ -32,7 +32,7 @@
   height: calc(var(--index) * 4.23);
   padding: calc(var(--index) * 0.77);
   margin-top: calc(var(--index) * 0.6);
-  background-color: var(--formBackColor);
+  background-color: var(--back-color-3c475c);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
   border-radius: 20px;
   display: flex;
@@ -66,7 +66,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: var(--font15px);
-  color: var(--white);
+  color: var(--color-white);
 }
 
 .basket_buttons {
@@ -77,12 +77,12 @@
   cursor: pointer;
   width: calc(var(--index) * 1.09);
   height: calc(var(--index) * 1.35);
-  background: var(--formBackColor);
+  background: var(--back-color-3c475c);
   box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.06),
     -1px -3px 3px rgba(255, 255, 255, 0.21);
   border-radius: 5px;
   border: none;
-  color: var(--white);
+  color: var(--color-white);
   transition: var(--trans01s);
   font-family: "Montserrat";
   font-style: normal;
@@ -90,7 +90,7 @@
   font-size: var(--font20px);
 }
 .basket_button:hover {
-  background-color: var(--formBackColorHover);
+  background-color: var(--back-color-36c3ff);
 }
 
 .basket_button_main {
@@ -105,7 +105,7 @@
   align-items: center;
 }
 .basket_prices_title {
-  color: var(--white);
+  color: var(--color-white);
   transition: var(--trans01s);
   font-family: "Montserrat";
   font-style: normal;
@@ -122,7 +122,7 @@
   width: 70.1%;
   height: calc(var(--index) * 4);
   z-index: 10;
-  background-color: var(--formBackColor);
+  background-color: var(--back-color-3c475c);
   align-items: flex-start;
   bottom: 0;
   display: flex;
@@ -144,7 +144,7 @@
   cursor: pointer;
   width: calc(var(--index) * 10);
   height: calc(var(--index) * 2);
-  background: var(--white);
+  background: var(--back-color-white);
   box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.12),
     -2px -4px 1px rgba(255, 255, 255, 0.21);
   border-radius: 38px;
@@ -154,14 +154,14 @@
   font-size: var(--font15px);
   border: none;
   text-transform: uppercase;
-  color: #28303f;
+  color: var(--color-28303f);
 }
 .basket_count_button:active {
-  background-color: var(--formBackColorHover);
-  color: var(--white);
+  background-color: var(--back-color-36c3ff);
+  color: var(--color-white);
 }
 .basket_count {
-  color: var(--white);
+  color: var(--color-white);
 }
 .basket_count_text1 {
   font-family: "Montserrat";

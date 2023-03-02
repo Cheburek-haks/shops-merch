@@ -9,15 +9,15 @@
   font-style: normal;
   font-weight: 500;
   font-size: var(--font20px);
-  color: var(--white);
+  color: var(--color-white);
   background-color: transparent;
   border: none;
   transition: var(--trans01s);
 }
 .button_active {
-  color: var(--formBackColorHover);
+  color: var(--color-36c3ff);
 }
 .button:hover {
-  color: var(--formBackColorHover);
+  color: var(--color-36c3ff);
   text-decoration-line: underline;
 }

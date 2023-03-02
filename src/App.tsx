@@ -8,6 +8,8 @@ import BasketContent from "./components/content/basket/BasketContent";
 import ScrollSm from "./utils/ScrollSmoother";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
+import { ApiService } from "./API/Api.service";
+import User from "./layouts/User";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -17,6 +19,12 @@ const queryClient = new QueryClient({
 
 function App() {
   ScrollSm();
+  React.useEffect(() => {
+    const fetchData = async () => {
+      const response = await ApiService.setAvtorization();
+    };
+    fetchData();
+  }, []);
 
   return (
     <QueryClientProvider client={queryClient}>
@@ -26,7 +34,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/:id" element={<Main />} />\
-            <Route path="/user" element={<Main />} />
+            <Route path="/user" element={<User />} />
             <Route path="/user/:id" element={<BasketContent />} />
           </Routes>
         </BrowserRouter>

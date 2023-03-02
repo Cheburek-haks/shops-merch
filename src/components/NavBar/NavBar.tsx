@@ -1,5 +1,6 @@
 import * as React from "react";
 import { useNavigate, useParams } from "react-router-dom";
+import { ApiService } from "../../API/Api.service";
 import Button from "../common/form/buttons/Button";
 import style from "./NavBar.module.css";
 

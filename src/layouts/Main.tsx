@@ -9,10 +9,10 @@ import { IProfessions } from "../types/Types";
 
 import style from "./Main.module.css";
 const Main = () => {
-  const { isLoading, profs, error } = useProfs("profession");
+  // const { isLoading, profs, error } = useProfs("profession");
   return (
     <>
-      {error && <h1 style={{ color: "red" }}>{(error as any).message}</h1>}
+      {/* {error && <h1 style={{ color: "red" }}>{(error as any).message}</h1>}
       <button style={{ height: 60, width: 130 }}>Send</button>
       {isLoading ? (
         <h4 style={{ textAlign: "center" }}>Loading</h4>
@@ -24,7 +24,7 @@ const Main = () => {
             <div>Post not worked</div>
           )}
         </>
-      )}
+      )} */}
       <MainImage />
       <div className={style.container}>
         <div className={style.nav_var}>

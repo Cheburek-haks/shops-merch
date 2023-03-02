@@ -15,3 +15,11 @@ export interface IBasket {
 export interface IProfessions {
   name: string;
 }
+export interface IUser {
+  id: number;
+  name: string;
+  last_name: string;
+  first_name: string;
+  command: string;
+  points: number;
+}
